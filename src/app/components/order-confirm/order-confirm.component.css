@@ -1,0 +1,65 @@
+.container{
+    color: white;
+}
+
+.intro-section{
+    margin: 50px auto;
+    padding: 20px;
+    max-width: 600px;
+    border-radius: 10px;
+    box-shadow: 0 0 5px rgba(255, 255, 255, 0.1);
+    background-color: rgb(75, 72, 105);
+    text-align: center;
+}
+
+.table-wrapper {
+    border-radius: 10px;
+    overflow: hidden; /* Đảm bảo các góc bo tròn hiển thị đúng */
+    border: 1px solid white; /* Đường viền ngoài của bảng */
+    width: 100%;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse; /* Sử dụng collapse để đường kẻ liền mạch */
+    background-color: rgb(21, 22, 71);
+}
+
+th, td {
+    padding: 10px;
+    text-align: center;
+    border-bottom: 1px solid white; /* Đường kẻ ngang */
+    border-right: 1px solid white; /* Đường kẻ dọc */
+}
+
+th:last-child, td:last-child {
+    border-right: none; /* Loại bỏ đường kẻ dọc ở cột cuối cùng */
+}
+
+tbody tr:last-child td {
+    border-bottom: none; /* Loại bỏ đường kẻ dưới dòng cuối cùng */
+}
+
+.product-info{
+    display: flex;
+    align-items: center;/* căn giữa các phần tử dọc theo trục chéo */
+}
+
+.product-image{
+    width: 100px;
+    height: 150px;
+    border-radius: 5px;
+    margin-right: 10px;
+}
+
+.product-name{
+    color: white;
+    margin-right: 10px;
+}
+
+.btn-gradient{
+    background: linear-gradient(to right, rgb(255,64,180),rgb(126,43,237));
+    color: white;
+    border-radius: 30px;
+    width: 200px;
+}

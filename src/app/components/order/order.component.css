@@ -1,0 +1,71 @@
+.container{
+    color: white;
+}
+
+.intro-section{
+    text-align: center;
+    padding: 20px;
+    color: white;
+}
+
+.product-header{
+    color: rgb(100, 50,156);
+}
+
+.form-label{
+    color: white;
+}
+
+.form-control{
+    background-color: rgb(19, 23, 42);
+    border: 1px solid rgb(29, 33, 54);
+    color: white;
+}
+
+.form-control:focus{
+    border-color: white;
+    background-color: rgb(19, 23, 42);
+}
+
+.product-order{
+    color: rgb(106, 244, 185);
+}
+
+table{
+    width: 100%;
+    border-radius: 10px;
+    border: none;
+    border-collapse: separate; /* đường viền của các ô tách biệt */
+    border-spacing: 0; /* khoảng cách giữa các ô */
+    border: 1px solid white;
+    background-color: rgb(21, 22, 71);
+}
+
+th,td{
+    padding: 10px;
+    text-align: center;
+}
+
+.product-info{
+    display: flex;
+    align-items: center;/* căn giữa các phần tử dọc theo trục chéo */
+}
+
+.product-image{
+    width: 100px;
+    height: 100px;
+    border-radius: 5px;
+    margin-right: 10px;
+}
+
+.product-name{
+    color: white;
+    margin-right: 10px;
+}
+
+.btn-gradient{
+    background: linear-gradient(to right, rgb(255,64,180),rgb(126,43,237));
+    color: white;
+    border-radius: 30px;
+    width: 200px;
+}
